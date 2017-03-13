@@ -45,7 +45,7 @@ NSString * const ResourceFileNameKey = @"autoGenerateResourceFileNameKey";
 
 - (NSString *)illustrationPrefixString {
     if (nil == _illustrationPrefixString) {
-        _illustrationPrefixString = @"//\n//  %@\n//  Yuedu\n//\n//  Created by JsonModelAutoMakeTool on %@.\n//  Copyright (c) 2014年 YangJihang. All rights reserved.\n//\n\n#import \"LHZBaseJsonModel.h\"\n";
+        _illustrationPrefixString = @"//\n//  %@\n//  Yuedu\n//\n//  Created by JsonModelAutoMakeTool on %@.\n//  Copyright (c) 2014年 YangJihang. All rights reserved.\n//\n\n#import \"JSONModel.h\"\n";
     }
     return _illustrationPrefixString;
 }
