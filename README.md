@@ -34,3 +34,10 @@ after auto make model, it will be end up with this
     @property(nonatomic, strong) NSNumber *id;
 
 because "id" is the keyword of Objective-C, so you may feel uncomfortable with it.
+
+
+
+
+# License
+
+MIT license
