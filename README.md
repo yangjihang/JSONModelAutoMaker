@@ -6,6 +6,10 @@ If you are using JSONModel (https://github.com/jsonmodel/jsonmodel) in your iOS 
 
 JSONModelAutoMaker is a simple tool to generate JsonModel .h and .m file according to your JSON data structure.
 It is really easy to use. 
+Please see the GIF below.
+
+
+![alt tag](https://cloud.githubusercontent.com/assets/1708050/23856685/70abb350-0835-11e7-8855-768144f9c36c.gif)
 
 
 Step 1: Save your JSON to Desktop and name with XXX.json (using txt format) , in the example, I name the file with SomeThing.json. And make sure it is a valid JSON format data (If not, may have something wrong with source file).
