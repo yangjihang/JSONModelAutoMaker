@@ -4,6 +4,7 @@ JSONModelAutoMaker
 If you are using JSONModel (https://github.com/jsonmodel/jsonmodel) in your iOS Project, and feel tired writing all those subclass of JSONModel, then JSONModelAutoMaker may be your choice to reduce some of your boring work.
 
 
+# How to use it
 JSONModelAutoMaker is a simple tool to generate JsonModel .h and .m file according to your JSON data structure.
 It is really easy to use. 
 Please see the GIF below.
