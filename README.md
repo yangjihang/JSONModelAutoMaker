@@ -15,7 +15,7 @@ Please see the GIF below.
 
 Step 1: Save your JSON to Desktop and name with XXX.json (using txt format) , in the example, I name the file with SomeThing.json. And make sure it is a valid JSON format data (If not, may have something wrong with source file).
 
-Step 2: Click "Generate By JsonFile From Desktop".
+Step 2: Run the project and then click "Generate By JsonFile From Desktop".
 
 Step 3: Finish! .h and .m file have generated on Desktop. Using those files in your project and save time to do more creative work!
 
@@ -37,10 +37,11 @@ after auto make model, it will be end up with this
 because "id" is the keyword of Objective-C, so you may feel uncomfortable with it.
 
 
-
-
-
-
 # License
 
 MIT license
+
+
+# Future
+
+As you see that JSONModelAutoMaker is a really simple and far from a strong tool. If you have any advices or any bug, please leave a message and help me do it better. Thanks~
