@@ -9,7 +9,6 @@ It is really easy to use.
 
 Step 1: Save your JSON to Desktop and name with XXX.json (using txt format) , in the example, I name the file with SomeThing.json. And make sure it is a valid JSON format data (If not, may have something wrong with source file).
 Step 2: Click "Generate By JsonFile From Desktop".
-
 Step 3: Finish! .h and .m file have generated on Desktop. Using those files in your project and save time to do more creative work!
 
 Tips:
