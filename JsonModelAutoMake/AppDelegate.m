@@ -476,7 +476,7 @@ NSString * const ResourceFileNameKey = @"autoGenerateResourceFileNameKey";
     
     if (![node.objTypeName hasPrefix:@"NS"]) {
         //  jsonModel类型才新建类声明
-        NSString *interfaceTemplate = @"\n@interface %@ : LHZBaseJsonModel\n\n";
+        NSString *interfaceTemplate = @"\n@interface %@ : JSONModel\n\n";
         NSString *interfaceString = [NSString stringWithFormat:interfaceTemplate, node.objTypeName];
         [fileHandle writeData:[interfaceString dataUsingEncoding:NSUTF8StringEncoding]];
         
