@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3C064771A37013A00C21DFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C064761A37013A00C21DFE /* main.m */; };
+		A3C0647A1A37013A00C21DFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C064791A37013A00C21DFE /* AppDelegate.m */; };
+		A3C0647C1A37013A00C21DFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3C0647B1A37013A00C21DFE /* Images.xcassets */; };
+		A3C0647F1A37013A00C21DFE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3C0647D1A37013A00C21DFE /* MainMenu.xib */; };
+		A3C0648B1A37013A00C21DFE /* JsonModelAutoMakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C0648A1A37013A00C21DFE /* JsonModelAutoMakeTests.m */; };
+		A3CC62421A381B7A00A2621F /* JsonModelTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CC62411A381B7A00A2621F /* JsonModelTreeNode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3C064851A37013A00C21DFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3C064691A37013900C21DFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3C064701A37013A00C21DFE;
+			remoteInfo = JsonModelAutoMake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3C064711A37013A00C21DFE /* JsonModelAutoMake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonModelAutoMake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C064751A37013A00C21DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3C064761A37013A00C21DFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3C064781A37013A00C21DFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3C064791A37013A00C21DFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3C0647B1A37013A00C21DFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A3C0647E1A37013A00C21DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A3C064841A37013A00C21DFE /* JsonModelAutoMakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonModelAutoMakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C064891A37013A00C21DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3C0648A1A37013A00C21DFE /* JsonModelAutoMakeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonModelAutoMakeTests.m; sourceTree = "<group>"; };
+		A3CC62401A381B7A00A2621F /* JsonModelTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonModelTreeNode.h; sourceTree = "<group>"; };
+		A3CC62411A381B7A00A2621F /* JsonModelTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonModelTreeNode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3C0646E1A37013A00C21DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C064811A37013A00C21DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3C064681A37013900C21DFE = {
+			isa = PBXGroup;
+			children = (
+				A3C064731A37013A00C21DFE /* JsonModelAutoMake */,
+				A3C064871A37013A00C21DFE /* JsonModelAutoMakeTests */,
+				A3C064721A37013A00C21DFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3C064721A37013A00C21DFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3C064711A37013A00C21DFE /* JsonModelAutoMake.app */,
+				A3C064841A37013A00C21DFE /* JsonModelAutoMakeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3C064731A37013A00C21DFE /* JsonModelAutoMake */ = {
+			isa = PBXGroup;
+			children = (
+				A3C064781A37013A00C21DFE /* AppDelegate.h */,
+				A3C064791A37013A00C21DFE /* AppDelegate.m */,
+				A3CC62401A381B7A00A2621F /* JsonModelTreeNode.h */,
+				A3CC62411A381B7A00A2621F /* JsonModelTreeNode.m */,
+				A3C0647B1A37013A00C21DFE /* Images.xcassets */,
+				A3C0647D1A37013A00C21DFE /* MainMenu.xib */,
+				A3C064741A37013A00C21DFE /* Supporting Files */,
+			);
+			path = JsonModelAutoMake;
+			sourceTree = "<group>";
+		};
+		A3C064741A37013A00C21DFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3C064751A37013A00C21DFE /* Info.plist */,
+				A3C064761A37013A00C21DFE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3C064871A37013A00C21DFE /* JsonModelAutoMakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3C0648A1A37013A00C21DFE /* JsonModelAutoMakeTests.m */,
+				A3C064881A37013A00C21DFE /* Supporting Files */,
+			);
+			path = JsonModelAutoMakeTests;
+			sourceTree = "<group>";
+		};
+		A3C064881A37013A00C21DFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3C064891A37013A00C21DFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3C064701A37013A00C21DFE /* JsonModelAutoMake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3C0648E1A37013A00C21DFE /* Build configuration list for PBXNativeTarget "JsonModelAutoMake" */;
+			buildPhases = (
+				A3C0646D1A37013A00C21DFE /* Sources */,
+				A3C0646E1A37013A00C21DFE /* Frameworks */,
+				A3C0646F1A37013A00C21DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JsonModelAutoMake;
+			productName = JsonModelAutoMake;
+			productReference = A3C064711A37013A00C21DFE /* JsonModelAutoMake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3C064831A37013A00C21DFE /* JsonModelAutoMakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3C064911A37013A00C21DFE /* Build configuration list for PBXNativeTarget "JsonModelAutoMakeTests" */;
+			buildPhases = (
+				A3C064801A37013A00C21DFE /* Sources */,
+				A3C064811A37013A00C21DFE /* Frameworks */,
+				A3C064821A37013A00C21DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3C064861A37013A00C21DFE /* PBXTargetDependency */,
+			);
+			name = JsonModelAutoMakeTests;
+			productName = JsonModelAutoMakeTests;
+			productReference = A3C064841A37013A00C21DFE /* JsonModelAutoMakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3C064691A37013900C21DFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = yangjihang;
+				TargetAttributes = {
+					A3C064701A37013A00C21DFE = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					A3C064831A37013A00C21DFE = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = A3C064701A37013A00C21DFE;
+					};
+				};
+			};
+			buildConfigurationList = A3C0646C1A37013900C21DFE /* Build configuration list for PBXProject "JsonModelAutoMake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3C064681A37013900C21DFE;
+			productRefGroup = A3C064721A37013A00C21DFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3C064701A37013A00C21DFE /* JsonModelAutoMake */,
+				A3C064831A37013A00C21DFE /* JsonModelAutoMakeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3C0646F1A37013A00C21DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C0647C1A37013A00C21DFE /* Images.xcassets in Resources */,
+				A3C0647F1A37013A00C21DFE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C064821A37013A00C21DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3C0646D1A37013A00C21DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CC62421A381B7A00A2621F /* JsonModelTreeNode.m in Sources */,
+				A3C0647A1A37013A00C21DFE /* AppDelegate.m in Sources */,
+				A3C064771A37013A00C21DFE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C064801A37013A00C21DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C0648B1A37013A00C21DFE /* JsonModelAutoMakeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3C064861A37013A00C21DFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3C064701A37013A00C21DFE /* JsonModelAutoMake */;
+			targetProxy = A3C064851A37013A00C21DFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3C0647D1A37013A00C21DFE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3C0647E1A37013A00C21DFE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3C0648C1A37013A00C21DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A3C0648D1A37013A00C21DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A3C0648F1A37013A00C21DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JsonModelAutoMake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3C064901A37013A00C21DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JsonModelAutoMake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3C064921A37013A00C21DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JsonModelAutoMakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JsonModelAutoMake.app/Contents/MacOS/JsonModelAutoMake";
+			};
+			name = Debug;
+		};
+		A3C064931A37013A00C21DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JsonModelAutoMakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JsonModelAutoMake.app/Contents/MacOS/JsonModelAutoMake";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3C0646C1A37013900C21DFE /* Build configuration list for PBXProject "JsonModelAutoMake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C0648C1A37013A00C21DFE /* Debug */,
+				A3C0648D1A37013A00C21DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3C0648E1A37013A00C21DFE /* Build configuration list for PBXNativeTarget "JsonModelAutoMake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C0648F1A37013A00C21DFE /* Debug */,
+				A3C064901A37013A00C21DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3C064911A37013A00C21DFE /* Build configuration list for PBXNativeTarget "JsonModelAutoMakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C064921A37013A00C21DFE /* Debug */,
+				A3C064931A37013A00C21DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3C064691A37013900C21DFE /* Project object */;
+}
